@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fortheline{
+            position: relative;
+            /* background: #000; */
+        }
+        .fortheline::after{
+            position: absolute;
+            content:'';
+            top: 50%;
+            width:10vw;
+            height:4px;
+            margin-left: 15px;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <i class="ri-arrow-right-line text-white z-10 fixed h-[100px] w-[100px] text-[80px] rounded-[50%] bg-[orange] flex justify-center items-center top-[50%] left-[47%]"></i>
+    <main >
+
+            
+        
+        <div id="wrapper" class="grid grid-cols-2">
+            <section class="leftsection h-[vh] p-5 relative">
+                <div class="flex justify-between">
+                    <div>
+                        <i class="ri-vip-diamond-fill text-3xl"></i>
+                    </div>
+                    <div>
+                        <div class="textright flex flex-col gap-4">
+                            <div>
+                                <p class="font-extrabold text-3xl">lorem</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold">lorfsadfem</p>
+                                <p class="font-semibold">Lorem, ipsum dolor.</p>
+                                <p class="font-semibold">Lorem, ipsum.</p>
+                                <p class="font-semibold">Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="textidhar_udhar" class="text-[70px] grid grid-cols-1 mt-4 relative left-[10%] font-extrabold">
+                    <h1 class="">SELECT</h1>
+                    <h1 class="text-right relative right-[40%]">FASHION</h1>
+                    <h1 class="fortheline">MOD.05</h1>
+                    <h1 class="text-right relative right-[45%]">SCENE</h1>
+                </div>
+                <div id="lastWAlatext" class="p-5 w-[350px] text-[13px] mt-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate blanditiis recusandae id sint
+                    nemo excepturi, amet suscipit perspiciatis odio ex totam aperiam quas expedita inventore, provident
+                    quam voluptatibus tenetur minima?
+                </div>
+            </section>
+            <section class="rightsection h-[vh]">
+                <div class="h-[95vh] relative overflow-hidden flex bg-yellow-500 m-5">
+                    <video src="video.mp4" height="50%" width="100%" class="absolute top-[-69px]" muted autoplay loop></video>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>
